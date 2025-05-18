@@ -1,0 +1,11 @@
+loadstring(game:HttpGet("local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RewardService = ReplicatedStorage.Packages._Index["sleitnick_knit@1.7.0"].knit.Services.RewardService.RF.RequestPlayWithDeveloperAward
+
+while true do
+    for i = 1, 100 do
+        task.spawn(function()
+            RewardService:InvokeServer()
+        end)
+    end
+    task.wait()
+end")();
